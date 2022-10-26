@@ -2,6 +2,7 @@
 
 html {
     overflow-y: hidden;
+    overflow-x: hidden;
  }
 
 h1 {
@@ -24,7 +25,7 @@ h1 {
 
 }
 
-ul {
+.navigation_list {
     margin: 0;
     list-style: none;
     display: flex;
@@ -35,7 +36,7 @@ ul {
     padding-left: 10%;
 }
 
-li {
+.navigation_point {
     position: relative;
     margin: 10%;
     padding-top: 30px;
@@ -126,3 +127,8 @@ p {
     text-indent: 35px;
     
 }
+article {
+    line-height: 1.8;
+}
+
+img { vertical-align: bottom; line-height: 0 }
