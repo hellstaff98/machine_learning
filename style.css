@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin,cyrillic);
+
+html {
+    overflow-y: hidden;
+ }
+
+h1 {
+    padding-top: 70px;
+    
+    font-size: 45px;
+    font-family: "Open Sans", sans-serif;
+    margin:0;
+}
+
+.navigation_bar {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    color: white;
+    background-color:#303030;
+    width: 350px;
+    height: 757px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding-top: 0;
+    padding-left: 10%;
+}
+
+li {
+    position: relative;
+    margin: 10%;
+    padding-top: 30px;
+}
+
+body {
+    border: 0;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    margin: 0;
+
+}
+
+a.dynamic_ref {
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+a.dynamic_ref:hover::after {
+    width: 110%;
+    right: -5%;
+    
+}
+
+a.dynamic_ref::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    right: 50%;
+    position: absolute;
+    background: linear-gradient(to left, #f69ec4, #f9dd94 100%);
+    transition: width .5s ease 0s, right .5s ease 0s;
+    width: 0;
+    
+  }
+
+
+table {
+    width: 1920px; 
+    
+    padding:0;
+    border-spacing: 0;
+    border: 0;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+td {
+    width: 280px;
+    padding:0;
+    border: 0;
+    margin: 0;
+}
+
+tr {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+th {
+    
+    margin-bottom:0px;
+    
+}
+.page_heading {
+    text-align: center;
+    height: 200px;
+    background-image:url("/content/banner.png") ;
+    background-size: 140% 100%;
+    background-repeat: no-repeat;
+}
+
+.main {
+    height: 800px;
+    display: flex;
+    flex-direction:row; 
+}
+article {
+    font-family: "Open Sans", sans-serif;
+    width: 1400px;
+    margin-left: 70px;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+p {
+    text-indent: 35px;
+    
+}
